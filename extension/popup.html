@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SG Talk 확장앱</title>
+    <style>
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; width: 420px; height: 600px; font-family: system-ui, -apple-system, sans-serif; background: #1C2924; color: #fff; overflow: hidden; display: flex; flex-direction: column; }
+      .bar { height: 40px; padding: 0 10px; display: flex; align-items: center; justify-content: space-between; gap: 8px; background: #1C2924; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 12px; }
+      .title { font-weight: 700; display: flex; align-items: center; gap: 6px; }
+      .dot { width: 8px; height: 8px; border-radius: 999px; background: #07C160; }
+      .actions { display: flex; align-items: center; gap: 6px; }
+      button { border: 0; border-radius: 8px; padding: 4px 8px; font-size: 11px; font-weight: 600; cursor: pointer; background: rgba(255,255,255,0.12); color: #fff; }
+      button:hover { background: #008069; }
+      #settings { display: none; padding: 8px 10px; background: #26362F; gap: 6px; align-items: center; }
+      #settings.open { display: flex; }
+      #originInput { flex: 1; height: 28px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.2); background: #1C2924; color: #fff; padding: 0 8px; font-size: 11px; }
+      iframe { flex: 1; width: 100%; border: 0; background: #E5EEE8; }
+    </style>
+  </head>
+  <body>
+    <div class="bar">
+      <div class="title"><span class="dot"></span><span>SG Talk 확장앱</span></div>
+      <div class="actions">
+        <button id="openSidePanelBtn" type="button">사이드패널</button>
+        <button id="toggleSettingsBtn" type="button">서버 설정</button>
+      </div>
+    </div>
+    <div id="settings">
+      <input id="originInput" type="url" placeholder="https://sgw.company.com" />
+      <button id="saveOriginBtn" type="button">저장</button>
+    </div>
+    <iframe id="sgwFrame" title="SG Talk 웹 확장앱"></iframe>
+    <script src="extension-frame.js"></script>
+  </body>
+</html>

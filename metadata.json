@@ -1,0 +1,6 @@
+{
+  "name": "WorkTalk",
+  "description": "사내 그룹웨어용 카카오톡 스타일 실시간 메신저, 연차 등록 전사 알림, 파일 공유 및 공지 협업 워크스페이스",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

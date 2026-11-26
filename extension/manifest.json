@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "SG Talk 확장앱",
+  "short_name": "SG Talk",
+  "version": "1.0.0",
+  "description": "사내 그룹웨어 연동 웹 확장앱 메신저 SG Talk (사이드 패널 및 팝업 설치형)",
+  "permissions": ["sidePanel", "storage", "notifications"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "SG Talk 열기",
+    "default_icon": {
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}

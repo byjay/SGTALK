@@ -1,0 +1,2274 @@
+{
+  "users": [
+    {
+      "id": "u-minjun",
+      "name": "김민준",
+      "email": "minjun@sgw.co.kr",
+      "department": "프로덕트 개발팀",
+      "position": "팀장",
+      "phone": "010-4821-1024",
+      "avatarUrl": "/src/assets/images/avatar_kim_minjun_1795266107528.jpg",
+      "statusMessage": "4분기 SG Talk 개편 스프린트",
+      "presenceStatus": "offline",
+      "role": "admin",
+      "totalLeaveDays": 15,
+      "usedLeaveDays": 2.5,
+      "online": false,
+      "lastSeen": "2026-11-25T13:00:00.490Z",
+      "createdAt": "2026-01-02T09:00:00.000Z",
+      "passwordHash": "c31fa465304769241aaaa3d4386e3427e4362a6815fdb0f5736b056beb86eabd"
+    },
+    {
+      "id": "u-seoyeon",
+      "name": "이서연",
+      "email": "seoyeon@sgw.co.kr",
+      "department": "UX 디자인팀",
+      "position": "선임",
+      "phone": "010-3912-8840",
+      "avatarUrl": "/src/assets/images/avatar_lee_seoyeon_1795266107614.jpg",
+      "statusMessage": "디자인 시스템 v3 시안 리뷰 중",
+      "presenceStatus": "online",
+      "role": "member",
+      "totalLeaveDays": 15,
+      "usedLeaveDays": 3,
+      "online": true,
+      "lastSeen": "2026-11-24T12:06:16.544Z",
+      "createdAt": "2026-01-02T09:00:00.000Z",
+      "passwordHash": "c31fa465304769241aaaa3d4386e3427e4362a6815fdb0f5736b056beb86eabd"
+    },
+    {
+      "id": "u-jihoon",
+      "name": "박지훈",
+      "email": "jihoon@sgw.co.kr",
+      "department": "경영지원·HR팀",
+      "position": "매니저",
+      "phone": "010-7721-3309",
+      "avatarUrl": "/src/assets/images/avatar_park_jihoon_1795266107118.jpg",
+      "statusMessage": "연차/결재/bmail 연동 문의 환영",
+      "presenceStatus": "meeting",
+      "role": "admin",
+      "totalLeaveDays": 15,
+      "usedLeaveDays": 1,
+      "online": true,
+      "lastSeen": "2026-11-24T11:51:16.544Z",
+      "createdAt": "2026-01-02T09:00:00.000Z",
+      "passwordHash": "c31fa465304769241aaaa3d4386e3427e4362a6815fdb0f5736b056beb86eabd"
+    },
+    {
+      "id": "u-yuna",
+      "name": "최유나",
+      "email": "yuna@sgw.co.kr",
+      "department": "그로스 마케팅팀",
+      "position": "매니저",
+      "phone": "010-6504-2190",
+      "avatarUrl": "/src/assets/images/avatar_choi_yuna_1795266107019.jpg",
+      "statusMessage": "연말 캠페인 미팅 이동 중",
+      "presenceStatus": "out",
+      "role": "member",
+      "totalLeaveDays": 15,
+      "usedLeaveDays": 4,
+      "online": true,
+      "lastSeen": "2026-11-24T11:31:16.544Z",
+      "createdAt": "2026-01-05T09:00:00.000Z",
+      "passwordHash": "c31fa465304769241aaaa3d4386e3427e4362a6815fdb0f5736b056beb86eabd"
+    },
+    {
+      "id": "u-hyunwoo",
+      "name": "정현우",
+      "email": "hyunwoo@sgw.co.kr",
+      "department": "프로덕트 개발팀",
+      "position": "선임",
+      "phone": "010-5190-7712",
+      "avatarUrl": "",
+      "statusMessage": "오늘 오후 반차 · 긴급 이슈는 민준 팀장님께",
+      "presenceStatus": "away",
+      "role": "member",
+      "totalLeaveDays": 15,
+      "usedLeaveDays": 3.5,
+      "online": false,
+      "lastSeen": "2026-11-24T10:16:16.544Z",
+      "createdAt": "2026-01-10T09:00:00.000Z",
+      "passwordHash": "c31fa465304769241aaaa3d4386e3427e4362a6815fdb0f5736b056beb86eabd"
+    },
+    {
+      "id": "u-bot",
+      "name": "SGW 알림봇",
+      "email": "bot@sgw.co.kr",
+      "department": "SGW 시스템",
+      "position": "자동알림",
+      "phone": "",
+      "avatarUrl": "",
+      "statusMessage": "연차 등록 · bmail 수신 · 전사 공지 실시간 연동",
+      "presenceStatus": "online",
+      "role": "bot",
+      "totalLeaveDays": 0,
+      "usedLeaveDays": 0,
+      "online": true,
+      "lastSeen": "2026-11-24T12:16:16.544Z",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "passwordHash": "c31fa465304769241aaaa3d4386e3427e4362a6815fdb0f5736b056beb86eabd"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room-company",
+      "type": "company",
+      "name": "전사 공지·자유방",
+      "description": "SGW 전사 공지, 연차·메일 알림 및 사내 소통 채널",
+      "memberIds": [
+        "u-minjun",
+        "u-seoyeon",
+        "u-jihoon",
+        "u-yuna",
+        "u-hyunwoo",
+        "u-bot"
+      ],
+      "pinnedByUserIds": [
+        "u-minjun"
+      ],
+      "mutedByUserIds": [],
+      "activeNoticeId": "notice-6ed37dc9",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-11-25T12:59:40.065Z"
+    },
+    {
+      "id": "room-bot",
+      "type": "bot",
+      "name": "SGW 연차·bmail 알림봇",
+      "description": "연차 등록 및 bmail 수신 시 즉시 알림을 전달하는 공식 연동 채널",
+      "memberIds": [
+        "u-minjun",
+        "u-seoyeon",
+        "u-jihoon",
+        "u-yuna",
+        "u-hyunwoo",
+        "u-bot"
+      ],
+      "pinnedByUserIds": [],
+      "mutedByUserIds": [],
+      "activeNoticeId": null,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-11-25T12:59:37.894Z"
+    },
+    {
+      "id": "room-dev",
+      "type": "group",
+      "name": "프로덕트 개발팀",
+      "description": "SGW 서브앱 프론트엔드·백엔드 협업방",
+      "memberIds": [
+        "u-minjun",
+        "u-seoyeon",
+        "u-hyunwoo"
+      ],
+      "pinnedByUserIds": [],
+      "mutedByUserIds": [],
+      "activeNoticeId": "notice-dev-1",
+      "createdAt": "2026-01-05T00:00:00.000Z",
+      "updatedAt": "2026-11-24T12:17:50.601Z"
+    },
+    {
+      "id": "room-dm-minjun-seoyeon",
+      "type": "direct",
+      "name": "이서연",
+      "description": "",
+      "memberIds": [
+        "u-minjun",
+        "u-seoyeon"
+      ],
+      "pinnedByUserIds": [],
+      "mutedByUserIds": [],
+      "activeNoticeId": null,
+      "createdAt": "2026-02-01T00:00:00.000Z",
+      "updatedAt": "2026-11-24T11:31:16.544Z"
+    },
+    {
+      "id": "room-dm-minjun-jihoon",
+      "type": "direct",
+      "name": "박지훈",
+      "description": "",
+      "memberIds": [
+        "u-minjun",
+        "u-jihoon"
+      ],
+      "pinnedByUserIds": [],
+      "mutedByUserIds": [],
+      "activeNoticeId": null,
+      "createdAt": "2026-02-05T00:00:00.000Z",
+      "updatedAt": "2026-11-24T09:16:16.544Z"
+    },
+    {
+      "id": "room-self-u-minjun",
+      "type": "self",
+      "name": "나와의 채팅",
+      "description": "개인 메모, 링크 및 파일을 보관하는 나만의 채팅방",
+      "memberIds": [
+        "u-minjun"
+      ],
+      "pinnedByUserIds": [],
+      "mutedByUserIds": [],
+      "activeNoticeId": null,
+      "disappearingSeconds": null,
+      "createdAt": "2026-02-05T00:00:00.000Z",
+      "updatedAt": "2026-11-24T09:16:16.544Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-company-1",
+      "roomId": "room-company",
+      "senderId": "u-jihoon",
+      "type": "text",
+      "content": "안녕하세요! SGW 메신저 왼쪽 회사 계정 목록에서 동료를 더블클릭하면 바로 1:1 채팅이 시작됩니다. 대화창에 \"/연차 내일 사유 개인일정\"을 입력하면 대화로 자기 연차도 등록할 수 있어요.",
+      "replyToId": null,
+      "reactions": {
+        "👍": [
+          "u-minjun",
+          "u-seoyeon",
+          "u-yuna"
+        ],
+        "✅": [
+          "u-hyunwoo"
+        ]
+      },
+      "readBy": [
+        "u-jihoon",
+        "u-minjun",
+        "u-seoyeon",
+        "u-yuna",
+        "u-hyunwoo"
+      ],
+      "createdAt": "2026-11-24T09:16:16.544Z"
+    },
+    {
+      "id": "msg-company-2",
+      "roomId": "room-company",
+      "senderId": "u-jihoon",
+      "type": "file",
+      "content": "SGW 메신저 및 메일 알림 연동 가이드를 첨부합니다.",
+      "replyToId": null,
+      "file": {
+        "id": "file-guide-01",
+        "filename": "2026_SGW_메신저_가이드.txt",
+        "mimeType": "text/plain",
+        "size": 435,
+        "url": "/api/files/file-guide-01/download",
+        "isImage": false
+      },
+      "reactions": {},
+      "readBy": [
+        "u-jihoon",
+        "u-minjun",
+        "u-seoyeon"
+      ],
+      "createdAt": "2026-11-24T10:16:16.544Z"
+    },
+    {
+      "id": "msg-company-3",
+      "roomId": "room-company",
+      "senderId": "u-yuna",
+      "type": "poll",
+      "content": "이번 주 금요일 팀별 런치 메뉴 투표 진행합니다!",
+      "replyToId": null,
+      "poll": {
+        "question": "금요일 전사 타운홀 후 점심 메뉴 선택",
+        "options": [
+          {
+            "id": "opt-1",
+            "text": "한식 정식 (성수동)",
+            "voterIds": [
+              "u-minjun",
+              "u-yuna"
+            ]
+          },
+          {
+            "id": "opt-2",
+            "text": "일식 돈카츠 & 우동",
+            "voterIds": [
+              "u-seoyeon"
+            ]
+          },
+          {
+            "id": "opt-3",
+            "text": "샐러드 & 샌드위치 도시락",
+            "voterIds": [
+              "u-jihoon"
+            ]
+          }
+        ],
+        "allowMultiple": false
+      },
+      "reactions": {
+        "❤️": [
+          "u-seoyeon"
+        ]
+      },
+      "readBy": [
+        "u-yuna",
+        "u-minjun",
+        "u-seoyeon"
+      ],
+      "createdAt": "2026-11-24T11:31:16.544Z"
+    },
+    {
+      "id": "msg-company-4",
+      "roomId": "room-company",
+      "senderId": "u-seoyeon",
+      "type": "text",
+      "content": "bmail 수신 알림 연동도 완료되었으니 확인 부탁드립니다! https://sgw.co.kr/guide",
+      "replyToId": null,
+      "reactions": {
+        "🔥": [
+          "u-minjun",
+          "u-yuna"
+        ]
+      },
+      "readBy": [
+        "u-seoyeon",
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-24T12:06:16.544Z"
+    },
+    {
+      "id": "msg-company-5",
+      "roomId": "room-company",
+      "senderId": "u-seoyeon",
+      "type": "voice",
+      "content": "[음성 메시지] 디자인 시스템 v3 시안 피드백 완료했습니다.",
+      "replyToId": null,
+      "voice": {
+        "durationSec": 6,
+        "waveform": [
+          28,
+          52,
+          74,
+          46,
+          88,
+          66,
+          40,
+          78,
+          92,
+          58,
+          44,
+          70,
+          84,
+          50,
+          34,
+          62,
+          72,
+          42,
+          30,
+          48
+        ],
+        "transcript": "디자인 시스템 v3 시안과 공지 배너 간격 최종 수정해서 반영해 두었습니다. 확인 부탁드려요!"
+      },
+      "reactions": {
+        "👍": [
+          "u-minjun"
+        ]
+      },
+      "readBy": [
+        "u-seoyeon",
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-24T12:11:16.616Z"
+    },
+    {
+      "id": "msg-bot-1",
+      "roomId": "room-bot",
+      "senderId": "u-bot",
+      "type": "leave_alert",
+      "content": "정현우 선임(프로덕트 개발팀)님이 오늘 오후반차를 등록했습니다.",
+      "replyToId": null,
+      "leaveAlert": {
+        "leaveId": "leave-seed-1",
+        "userId": "u-hyunwoo",
+        "userName": "정현우",
+        "department": "프로덕트 개발팀",
+        "position": "선임",
+        "leaveType": "오후반차",
+        "startDate": "2026-11-24",
+        "endDate": "2026-11-24",
+        "daysCount": 0.5,
+        "substituteName": "김민준 팀장",
+        "reason": "개인 병원 예약 및 휴식"
+      },
+      "reactions": {
+        "👌": [
+          "u-minjun"
+        ]
+      },
+      "readBy": [
+        "u-minjun",
+        "u-jihoon"
+      ],
+      "createdAt": "2026-11-24T10:16:16.544Z"
+    },
+    {
+      "id": "msg-bot-2",
+      "roomId": "room-bot",
+      "senderId": "u-bot",
+      "type": "mail_alert",
+      "content": "[비메일] 이서연 선임 · SGW 메신저 확장앱 레이아웃 최종 시안 전달",
+      "replyToId": null,
+      "mailAlert": {
+        "mailId": "mail-seed-2",
+        "provider": "bmail",
+        "senderId": "u-seoyeon",
+        "senderName": "이서연 선임",
+        "senderEmail": "seoyeon@sgw.co.kr",
+        "subject": "[UX 디자인팀] SGW 메신저 확장앱 레이아웃 최종 시안 전달",
+        "preview": "웹 확장앱·앱 모드 전환 UI 시안 전달 및 피드백 요청",
+        "shortSummary": "웹 확장앱·앱 모드 전환 UI 시안 전달 및 피드백 요청",
+        "attachmentCount": 1,
+        "attachmentNames": [
+          "SGW_확장앱_UI시안_요약.txt"
+        ],
+        "category": "일반"
+      },
+      "reactions": {},
+      "readBy": [
+        "u-seoyeon"
+      ],
+      "createdAt": "2026-11-24T11:31:16.544Z"
+    },
+    {
+      "id": "msg-bot-3",
+      "roomId": "room-bot",
+      "senderId": "u-bot",
+      "type": "mail_alert",
+      "content": "[빅메일] 이서연 선임 · 2026 SGW × SEDMS 차세대 대용량 아키텍처 설계서 송부",
+      "replyToId": null,
+      "mailAlert": {
+        "mailId": "mail-seed-bigmail-1",
+        "provider": "bigmail",
+        "senderId": "u-seoyeon",
+        "senderName": "이서연 선임",
+        "senderEmail": "seoyeon@sgw.co.kr",
+        "subject": "[빅메일] 2026 SGW × SEDMS 차세대 대용량 아키텍처 설계서 송부",
+        "preview": "SGW 차세대 아키텍처 설계서 및 UI 리소스 대용량 패키지 검토 요청",
+        "shortSummary": "SGW 차세대 아키텍처 설계서 및 UI 리소스 대용량 패키지 검토 요청",
+        "attachmentCount": 2,
+        "attachmentNames": [
+          "2026_SGW_SEDMS_아키텍처_설계서.pdf",
+          "SGW_UI_디자인시스템_에셋.zip"
+        ],
+        "category": "공지"
+      },
+      "reactions": {},
+      "readBy": [
+        "u-seoyeon"
+      ],
+      "createdAt": "2026-11-24T12:06:16.544Z"
+    },
+    {
+      "id": "msg-dev-1",
+      "roomId": "room-dev",
+      "senderId": "u-minjun",
+      "type": "text",
+      "content": "매주 목요일 오후 4시 스테이징 배포, 금요일 오전 10시 프로덕션 반영입니다.",
+      "replyToId": null,
+      "reactions": {
+        "👍": [
+          "u-hyunwoo",
+          "u-seoyeon"
+        ]
+      },
+      "readBy": [
+        "u-minjun",
+        "u-hyunwoo",
+        "u-seoyeon"
+      ],
+      "createdAt": "2026-11-24T09:16:16.544Z"
+    },
+    {
+      "id": "msg-dev-2",
+      "roomId": "room-dev",
+      "senderId": "u-hyunwoo",
+      "type": "text",
+      "content": "@김민준 팀장님, 오늘 오후 반차여서 오전 중으로 WebSocket 이벤트 핸들러 PR 올려두겠습니다!",
+      "replyToId": null,
+      "mentions": [
+        "u-minjun"
+      ],
+      "reactions": {},
+      "readBy": [
+        "u-hyunwoo",
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-24T11:51:16.544Z"
+    },
+    {
+      "id": "msg-dm-1",
+      "roomId": "room-dm-minjun-seoyeon",
+      "senderId": "u-seoyeon",
+      "type": "text",
+      "content": "팀장님, 채팅방 내 공지 배너 접기/펼치기 간격 확인 부탁드려요!",
+      "replyToId": null,
+      "reactions": {},
+      "readBy": [
+        "u-seoyeon"
+      ],
+      "createdAt": "2026-11-24T11:31:16.544Z"
+    },
+    {
+      "id": "msg-dm-2",
+      "roomId": "room-dm-minjun-jihoon",
+      "senderId": "u-jihoon",
+      "type": "text",
+      "content": "민준님, 연차 등록 전사 알림 및 bmail 연동 테스트도 문제없이 잘 동작합니다.",
+      "replyToId": null,
+      "reactions": {
+        "🙏": [
+          "u-minjun"
+        ]
+      },
+      "readBy": [
+        "u-jihoon",
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-24T09:16:16.544Z"
+    },
+    {
+      "id": "msg-self-1",
+      "roomId": "room-self-u-minjun",
+      "senderId": "u-minjun",
+      "type": "text",
+      "content": "📌 나와의 채팅 · SEDMS × SGW AI 커맨드 허브\n음성이나 텍스트로 \"내일 연차 등록\", \"프로젝트 달력 열어줘\", \"미팅메모 작성해줘\", \"회의 바로 시작\", \"SEDMS 전자결재 열어줘\" 등을 입력하면 연동 브리지가 즉시 실행됩니다.",
+      "replyToId": null,
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-24T09:16:16.544Z"
+    },
+    {
+      "id": "msg-5e861f6a",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "voice",
+      "content": "음성 메시지 (0:02)",
+      "replyToId": null,
+      "voice": {
+        "durationSec": 2,
+        "transcript": "오후 3시 긴급 점검 회의 안내드립니다.",
+        "waveform": [
+          0.3,
+          0.7,
+          0.5,
+          0.9,
+          0.4,
+          0.6
+        ],
+        "audioDataUrl": "data:audio/wav;base64,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",
+        "analysis": {
+          "summary": "오후 3시 긴급 점검 회의 안내드립니다.",
+          "keywords": [
+            "오후",
+            "3시",
+            "긴급",
+            "점검",
+            "회의"
+          ],
+          "actionItems": [
+            "핵심 키워드 기준으로 팀 대화방에 메모 정리"
+          ],
+          "detectedIntent": "general",
+          "analyzedAt": "2026-11-24T12:16:41.900Z",
+          "engine": "sgw-voice-engine"
+        }
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [],
+      "mentions": [],
+      "forwardedFrom": null,
+      "expiresAt": null,
+      "createdAt": "2026-11-24T12:16:41.935Z"
+    },
+    {
+      "id": "msg-97d05d23",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "file",
+      "content": "[100GB 대용량 링크 공유] SGW_AI_모델가중치_100GB.tar.zst",
+      "replyToId": null,
+      "file": {
+        "id": "link-3b7d9680",
+        "filename": "SGW_AI_모델가중치_100GB.tar.zst",
+        "mimeType": "application/octet-stream",
+        "size": 107374182400,
+        "url": "https://drive.google.com/file/d/sgw-100gb-verify/view",
+        "isImage": false,
+        "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJsaW5rLTNiN2Q5NjgwIiwicm9vbUlkIjoicm9vbS1jb21wYW55IiwiaWF0IjoxNzk1NTIyNjAzNzc3LCJleHAiOjE3OTYxMjc0MDM3NzcsInNjb3BlIjoiZmlsZV9zaGFyZSJ9.OZ5d_K0PFdMyIpIoepgIT5Sb0UejhSufEkTxS6O8LB4",
+        "shareExpiresAt": "2026-12-01T12:16:43.777Z",
+        "isLargeFile": true,
+        "isExternalLink": true,
+        "shareProvider": "s3",
+        "transferMode": "external-100gb",
+        "hasPasscode": true,
+        "maxDownloads": 3,
+        "downloadCount": 0,
+        "revoked": false
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [],
+      "mentions": [],
+      "forwardedFrom": null,
+      "expiresAt": null,
+      "createdAt": "2026-11-24T12:16:43.845Z"
+    },
+    {
+      "id": "msg-4c96908f",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "voice",
+      "content": "음성 메시지 (0:02)",
+      "replyToId": null,
+      "voice": {
+        "durationSec": 2,
+        "transcript": "오후 3시 긴급 점검 회의 안내드립니다.",
+        "waveform": [
+          0.3,
+          0.7,
+          0.5,
+          0.9,
+          0.4,
+          0.6
+        ],
+        "audioDataUrl": "data:audio/wav;base64,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",
+        "analysis": {
+          "summary": "오후 3시 긴급 점검 회의 안내드립니다.",
+          "keywords": [
+            "오후",
+            "3시",
+            "긴급",
+            "점검",
+            "회의"
+          ],
+          "actionItems": [
+            "핵심 키워드 기준으로 팀 대화방에 메모 정리"
+          ],
+          "detectedIntent": "general",
+          "analyzedAt": "2026-11-24T12:17:36.334Z",
+          "engine": "sgw-voice-engine"
+        }
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [],
+      "mentions": [],
+      "forwardedFrom": null,
+      "expiresAt": null,
+      "createdAt": "2026-11-24T12:17:36.364Z"
+    },
+    {
+      "id": "msg-71713058",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "file",
+      "content": "[100GB 대용량 링크 공유] SGW_AI_모델가중치_100GB.tar.zst",
+      "replyToId": null,
+      "file": {
+        "id": "link-a8091787",
+        "filename": "SGW_AI_모델가중치_100GB.tar.zst",
+        "mimeType": "application/octet-stream",
+        "size": 107374182400,
+        "url": "https://drive.google.com/file/d/sgw-100gb-verify/view",
+        "isImage": false,
+        "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJsaW5rLWE4MDkxNzg3Iiwicm9vbUlkIjoicm9vbS1jb21wYW55IiwiaWF0IjoxNzk1NTIyNjU3NzEwLCJleHAiOjE3OTYxMjc0NTc3MTAsInNjb3BlIjoiZmlsZV9zaGFyZSJ9.Nd5pMENFILZiovjz1UUasjAAcT8Je6YfeQPiNQuD2Mk",
+        "shareExpiresAt": "2026-12-01T12:17:37.710Z",
+        "isLargeFile": true,
+        "isExternalLink": true,
+        "shareProvider": "s3",
+        "transferMode": "external-100gb",
+        "hasPasscode": true,
+        "maxDownloads": 3,
+        "downloadCount": 0,
+        "revoked": false
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [],
+      "mentions": [],
+      "forwardedFrom": null,
+      "expiresAt": null,
+      "createdAt": "2026-11-24T12:17:37.808Z"
+    },
+    {
+      "id": "msg-d8688291",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "file",
+      "content": "chunk_verify_demo.bin",
+      "replyToId": null,
+      "file": {
+        "id": "file-3c97b209",
+        "filename": "chunk_verify_demo.bin",
+        "mimeType": "application/octet-stream",
+        "size": 26,
+        "url": "/api/files/file-3c97b209/download",
+        "isImage": false,
+        "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJmaWxlLTNjOTdiMjA5Iiwicm9vbUlkIjoicm9vbS1jb21wYW55IiwiaWF0IjoxNzk1NTIyNjY1MTU4LCJleHAiOjE3OTYxMjc0NjUxNTgsInNjb3BlIjoiZmlsZV9zaGFyZSJ9.syYjvMNbeDyk_KRK6JwzTwqELGIgujFtM9qAk29BS6o",
+        "shareExpiresAt": "2026-12-01T12:17:45.158Z",
+        "isLargeFile": false,
+        "isExternalLink": false,
+        "shareProvider": "sgw-relay",
+        "transferMode": "chunked-resumable",
+        "hasPasscode": false,
+        "maxDownloads": null,
+        "downloadCount": 0,
+        "revoked": true
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [],
+      "mentions": [],
+      "forwardedFrom": null,
+      "expiresAt": null,
+      "createdAt": "2026-11-24T12:17:45.159Z"
+    },
+    {
+      "id": "msg-e9d28acf",
+      "roomId": "room-dev",
+      "senderId": "u-minjun",
+      "type": "text",
+      "content": "실시간 앱-웹 동기화 검증 메시지 #2026",
+      "replyToId": null,
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [],
+      "mentions": [],
+      "forwardedFrom": null,
+      "expiresAt": null,
+      "createdAt": "2026-11-24T12:17:50.601Z"
+    },
+    {
+      "id": "msg-89911bb2",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "file",
+      "content": "[NAS 폴더 복사 · 외부 링크 공유] 프로덕트개발/nas_smoke_test.txt",
+      "replyToId": null,
+      "file": {
+        "id": "nas-0abe7580",
+        "filename": "nas_smoke_test.txt",
+        "mimeType": "application/octet-stream",
+        "size": 30,
+        "url": "/api/files/nas-0abe7580/download",
+        "isImage": false,
+        "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXMtMGFiZTc1ODAiLCJyb29tSWQiOiJyb29tLWNvbXBhbnkiLCJpYXQiOjE3OTU1MzIzODI4NjQsImV4cCI6MTc5NjEzNzE4Mjg2NCwic2NvcGUiOiJmaWxlX3NoYXJlIn0.rseoxZVpGUz_MYmbWWYEm6YzX02o9MdzGWTcpz1bWK8",
+        "shareExpiresAt": "2026-12-01T14:59:42.864Z",
+        "isLargeFile": true,
+        "isExternalLink": false,
+        "shareProvider": "nas",
+        "transferMode": "external-100gb",
+        "storageLocation": "internal-nas",
+        "nasFolder": "프로덕트개발",
+        "nasRelativePath": "프로덕트개발/nas_smoke_test.txt",
+        "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXMtMGFiZTc1ODAiLCJyb29tSWQiOiJyb29tLWNvbXBhbnkiLCJpYXQiOjE3OTU1MzIzODI4NjQsImV4cCI6MTc5NjEzNzE4Mjg2NCwic2NvcGUiOiJmaWxlX3NoYXJlIn0.rseoxZVpGUz_MYmbWWYEm6YzX02o9MdzGWTcpz1bWK8",
+        "hasPasscode": false,
+        "maxDownloads": null,
+        "downloadCount": 1,
+        "revoked": false
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [],
+      "mentions": [],
+      "forwardedFrom": null,
+      "expiresAt": null,
+      "createdAt": "2026-11-24T14:59:42.865Z"
+    },
+    {
+      "id": "msg-eb4d63a6",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "file",
+      "content": "[NAS 폴더 복사 · 외부 링크 공유] AI-데이터셋/SGW_Vision_100G.tar.zst",
+      "replyToId": null,
+      "file": {
+        "id": "nas-f38d477c",
+        "filename": "SGW_Vision_100G.tar.zst",
+        "mimeType": "application/octet-stream",
+        "size": 107374182400,
+        "url": "/api/files/nas-f38d477c/download",
+        "isImage": false,
+        "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXMtZjM4ZDQ3N2MiLCJyb29tSWQiOiJyb29tLWNvbXBhbnkiLCJpYXQiOjE3OTU1MzIzODI4OTAsImV4cCI6MTc5NjEzNzE4Mjg5MCwic2NvcGUiOiJmaWxlX3NoYXJlIn0.lD9AsfAejoTlM1bQmHQwhjYhW0xs_ihoI5_Xu5C3apM",
+        "shareExpiresAt": "2026-12-01T14:59:42.890Z",
+        "isLargeFile": true,
+        "isExternalLink": false,
+        "shareProvider": "nas",
+        "transferMode": "external-100gb",
+        "storageLocation": "internal-nas",
+        "nasFolder": "AI-데이터셋",
+        "nasRelativePath": "AI-데이터셋/SGW_Vision_100G.tar.zst",
+        "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXMtZjM4ZDQ3N2MiLCJyb29tSWQiOiJyb29tLWNvbXBhbnkiLCJpYXQiOjE3OTU1MzIzODI4OTAsImV4cCI6MTc5NjEzNzE4Mjg5MCwic2NvcGUiOiJmaWxlX3NoYXJlIn0.lD9AsfAejoTlM1bQmHQwhjYhW0xs_ihoI5_Xu5C3apM",
+        "hasPasscode": true,
+        "maxDownloads": 5,
+        "downloadCount": 1,
+        "revoked": false
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [],
+      "mentions": [],
+      "forwardedFrom": null,
+      "expiresAt": null,
+      "createdAt": "2026-11-24T14:59:42.959Z"
+    },
+    {
+      "id": "msg-27408570",
+      "roomId": "room-bot",
+      "senderId": "u-bot",
+      "type": "mail_alert",
+      "content": "[빅메일] 김민준 팀장 · 빅메일 NAS 대용량 테스트\n내용 요약: 내부 NAS 복사 및 외부 다운로드 링크 테스트입니다. (📎 Brand_Kit_100G.zip)",
+      "replyToId": null,
+      "mailAlert": {
+        "mailId": "bigmail-3b49cb04",
+        "provider": "bigmail",
+        "senderId": "u-minjun",
+        "senderName": "김민준 팀장",
+        "senderEmail": "minjun@sgw.co.kr",
+        "subject": "빅메일 NAS 대용량 테스트",
+        "preview": "내부 NAS 복사 및 외부 다운로드 링크 테스트입니다.",
+        "shortSummary": "내부 NAS 복사 및 외부 다운로드 링크 테스트입니다.",
+        "attachmentCount": 1,
+        "attachmentNames": [
+          "Brand_Kit_100G.zip"
+        ],
+        "category": "일반"
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-24T14:59:43.131Z"
+    },
+    {
+      "id": "msg-f045fb99",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "file",
+      "content": "[NAS 폴더 복사 · 외부 링크 공유] AI-데이터셋/Model_Weights_120GB.tar.zst",
+      "replyToId": null,
+      "file": {
+        "id": "nas-c1b6c437",
+        "filename": "Model_Weights_120GB.tar.zst",
+        "mimeType": "application/octet-stream",
+        "size": 107374182400,
+        "url": "/api/files/nas-c1b6c437/download",
+        "isImage": false,
+        "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXMtYzFiNmM0MzciLCJyb29tSWQiOiJyb29tLWNvbXBhbnkiLCJpYXQiOjE3OTU1MzI0NTg1NzMsImV4cCI6MTc5NjEzNzI1ODU3Mywic2NvcGUiOiJmaWxlX3NoYXJlIn0.LjF-F8i3mQiwZq3l_rBdYpxwj2kjDf1hpSb3YXsLKDM",
+        "shareExpiresAt": "2026-12-01T15:00:58.573Z",
+        "isLargeFile": true,
+        "isExternalLink": false,
+        "shareProvider": "nas",
+        "transferMode": "external-100gb",
+        "storageLocation": "internal-nas",
+        "nasFolder": "AI-데이터셋",
+        "nasRelativePath": "AI-데이터셋/Model_Weights_120GB.tar.zst",
+        "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXMtYzFiNmM0MzciLCJyb29tSWQiOiJyb29tLWNvbXBhbnkiLCJpYXQiOjE3OTU1MzI0NTg1NzMsImV4cCI6MTc5NjEzNzI1ODU3Mywic2NvcGUiOiJmaWxlX3NoYXJlIn0.LjF-F8i3mQiwZq3l_rBdYpxwj2kjDf1hpSb3YXsLKDM",
+        "hasPasscode": true,
+        "maxDownloads": null,
+        "downloadCount": 0,
+        "revoked": false
+      },
+      "reactions": {
+        "👍": [
+          "u-minjun"
+        ]
+      },
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [],
+      "mentions": [],
+      "forwardedFrom": null,
+      "expiresAt": null,
+      "createdAt": "2026-11-24T15:00:58.631Z"
+    },
+    {
+      "id": "msg-ad4a0125",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "schedule_card",
+      "content": "[일정 공유] 주간 NAS 연동 점검 회의 (2026-11-26 14:00)",
+      "replyToId": null,
+      "scheduleCard": {
+        "title": "주간 NAS 연동 점검 회의",
+        "dateTime": "2026-11-26 14:00",
+        "location": "대회의실 A",
+        "memo": "대용량 외부 링크 보안 검토",
+        "attendeesYes": [
+          "u-minjun"
+        ],
+        "attendeesMaybe": [],
+        "attendeesNo": []
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [],
+      "mentions": [],
+      "forwardedFrom": null,
+      "expiresAt": null,
+      "createdAt": "2026-11-24T15:01:54.993Z"
+    },
+    {
+      "id": "msg-69baf49d",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "draw_card",
+      "content": "[랜덤 추첨] 회의 발표자 · 당번 추첨 → 당첨: 박지훈",
+      "replyToId": null,
+      "drawCard": {
+        "topic": "회의 발표자 · 당번 추첨",
+        "candidates": [
+          "김민준",
+          "이서연",
+          "박지훈",
+          "최유나",
+          "정현우"
+        ],
+        "winner": "박지훈",
+        "drawnAt": "2026-11-24T15:02:21.806Z"
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [],
+      "mentions": [],
+      "forwardedFrom": null,
+      "expiresAt": null,
+      "createdAt": "2026-11-24T15:02:21.806Z"
+    },
+    {
+      "id": "msg-9e32c1f1",
+      "roomId": "room-bot",
+      "senderId": "u-bot",
+      "type": "mail_alert",
+      "content": "[빅메일] 김민준 팀장 · 2026 Q4 릴리즈 NAS 대용량 납품\n내용 요약: 내부 프로덕트개발 NAS 폴더에 복사 완료했으며, 외부에서는 아래 보안 링크로 다운로드 가능합니다. (📎 Release_Bundle_150GB.tar.zst)",
+      "replyToId": null,
+      "mailAlert": {
+        "mailId": "bigmail-1bed2cce",
+        "provider": "bigmail",
+        "senderId": "u-minjun",
+        "senderName": "김민준 팀장",
+        "senderEmail": "minjun@sgw.co.kr",
+        "subject": "2026 Q4 릴리즈 NAS 대용량 납품",
+        "preview": "내부 프로덕트개발 NAS 폴더에 복사 완료했으며, 외부에서는 아래 보안 링크로 다운로드 가능합니다.",
+        "shortSummary": "내부 프로덕트개발 NAS 폴더에 복사 완료했으며, 외부에서는 아래 보안 링크로 다운로드 가능합니다.",
+        "attachmentCount": 1,
+        "attachmentNames": [
+          "Release_Bundle_150GB.tar.zst"
+        ],
+        "category": "일반"
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-24T15:03:22.806Z"
+    },
+    {
+      "id": "msg-e4fc48e7",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "notice_alert",
+      "content": "[긴급재난문자] API 테스트 긴급 공지\n재난문자 전파 확인 테스트",
+      "replyToId": null,
+      "noticeAlert": {
+        "noticeId": "notice-e025a364",
+        "title": "API 테스트 긴급 공지",
+        "priority": "urgent",
+        "isUrgent": true,
+        "pushAllMembers": true
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-25T10:51:04.734Z"
+    },
+    {
+      "id": "msg-e1c88796",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "notice_alert",
+      "content": "[긴급재난문자] 전사 긴급 서버 점검 안내\n오늘 18:00~18:15 NAS 보안 패치 작업으로 대용량 링크 발급이 일시 중단됩니다. 전 직원 확인 바랍니다.",
+      "replyToId": null,
+      "noticeAlert": {
+        "noticeId": "notice-5fa0244a",
+        "title": "전사 긴급 서버 점검 안내",
+        "priority": "urgent",
+        "isUrgent": true,
+        "pushAllMembers": true
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-25T10:52:09.168Z"
+    },
+    {
+      "id": "msg-52732700",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "notice_alert",
+      "content": "[긴급재난문자] 긴급 서버 보안 패치 공지\n전 직원 금일 18시 전까지 VPN 재접속 및 보안 패치 적용 바랍니다.",
+      "replyToId": null,
+      "noticeAlert": {
+        "noticeId": "notice-6ed37dc9",
+        "title": "긴급 서버 보안 패치 공지",
+        "priority": "urgent",
+        "isUrgent": true,
+        "pushAllMembers": true
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-25T10:54:53.049Z"
+    },
+    {
+      "id": "msg-fdbb231f",
+      "roomId": "room-bot",
+      "senderId": "u-bot",
+      "type": "mail_alert",
+      "content": "[빅메일] 김민준 팀장 · Q4 대용량 리소스 전달 테스트\n내용 요약: 사내 NAS 폴더로 패키징 완료되어 공유 링크 함께 첨부드립니다. (📎 SGW_대용량_공유패키지.tar.zst)",
+      "replyToId": null,
+      "mailAlert": {
+        "mailId": "bigmail-80ee87a5",
+        "provider": "bigmail",
+        "senderId": "u-minjun",
+        "senderName": "김민준 팀장",
+        "senderEmail": "minjun@sgw.co.kr",
+        "subject": "Q4 대용량 리소스 전달 테스트",
+        "preview": "사내 NAS 폴더로 패키징 완료되어 공유 링크 함께 첨부드립니다.",
+        "shortSummary": "사내 NAS 폴더로 패키징 완료되어 공유 링크 함께 첨부드립니다.",
+        "attachmentCount": 1,
+        "attachmentNames": [
+          "SGW_대용량_공유패키지.tar.zst"
+        ],
+        "category": "일반"
+      },
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-25T12:59:37.894Z"
+    },
+    {
+      "id": "msg-157aded3",
+      "roomId": "room-company",
+      "senderId": "u-minjun",
+      "type": "text",
+      "content": "[대화 요약] 전사 공지·자유방 (최근 18건)\n• 참여 현황: 박지훈, 최유나, 이서연, 김민준 (최근 18건 분석)\n• 공지·전파: 긴급 서버 보안 패치 공지\n• 공유 일정: \"주간 NAS 연동 점검 회의\"\n• 공유 파일(7건): SGW_Vision_100G.tar.zst, Model_Weights_120GB.tar.zst\n• 이서연: [음성] 디자인 시스템 v3 시안과 공지 배너 간격 최종 수정해서 반영해 두었습니다. 확인 부탁드려요!\n• 김민준: [음성] 오후 3시 긴급 점검 회의 안내드립니다.\n• 김민준: [음성] 오후 3시 긴급 점검 회의 안내드립니다.",
+      "replyToId": null,
+      "reactions": {},
+      "readBy": [
+        "u-minjun"
+      ],
+      "starredByUserIds": [],
+      "mentions": [],
+      "forwardedFrom": null,
+      "expiresAt": null,
+      "createdAt": "2026-11-25T12:59:40.065Z"
+    }
+  ],
+  "notices": [
+    {
+      "id": "notice-6ed37dc9",
+      "roomId": "room-company",
+      "scope": "room",
+      "messageId": null,
+      "authorId": "u-minjun",
+      "title": "긴급 서버 보안 패치 공지",
+      "content": "전 직원 금일 18시 전까지 VPN 재접속 및 보안 패치 적용 바랍니다.",
+      "pinned": true,
+      "priority": "urgent",
+      "isUrgent": true,
+      "pushAllMembers": true,
+      "acknowledgedBy": [
+        "u-minjun"
+      ],
+      "updatedAt": "2026-11-25T10:59:39.961Z",
+      "createdAt": "2026-11-25T10:54:53.049Z"
+    },
+    {
+      "id": "notice-5fa0244a",
+      "roomId": "room-company",
+      "scope": "room",
+      "messageId": null,
+      "authorId": "u-minjun",
+      "title": "전사 긴급 서버 점검 안내",
+      "content": "오늘 18:00~18:15 NAS 보안 패치 작업으로 대용량 링크 발급이 일시 중단됩니다. 전 직원 확인 바랍니다.",
+      "pinned": false,
+      "priority": "urgent",
+      "isUrgent": true,
+      "pushAllMembers": true,
+      "acknowledgedBy": [
+        "u-minjun"
+      ],
+      "updatedAt": "2026-11-25T10:52:09.168Z",
+      "createdAt": "2026-11-25T10:52:09.168Z"
+    },
+    {
+      "id": "notice-global-1",
+      "roomId": "room-company",
+      "scope": "global",
+      "messageId": null,
+      "authorId": "u-jihoon",
+      "title": "[전체 업무 공지] 2026년 4분기 보안 점검 및 대용량 파일 링크 공유 정책",
+      "content": "사내 대용량 파일(최대 500MB 분할 업로드 및 100GB 단위 외부 공유 링크)은 만료일·비밀번호·다운로드 제한이 적용된 보안 공유 링크를 통해 안전하게 전달해 주세요. 빅메일·비메일 수신 시 통합 어시스턴트에서 즉시 요약·열기가 가능합니다.",
+      "pinned": false,
+      "createdAt": "2026-11-24T10:16:16.544Z",
+      "priority": "normal",
+      "isUrgent": false,
+      "acknowledgedBy": [
+        "u-jihoon"
+      ]
+    },
+    {
+      "id": "notice-global-2",
+      "roomId": "room-company",
+      "scope": "global",
+      "messageId": null,
+      "authorId": "u-minjun",
+      "title": "[전체 업무 공지] SEDMS × SGW 통합 음성 어시스턴트 가동",
+      "content": "상단 통합 어시스턴트 또는 채팅창 마이크 버튼으로 \"최근 빅메일 요약해줘\", \"전체 업무 공지 등록\", \"내일 오전반차 신청\" 등 음성 제어가 가능합니다.",
+      "pinned": false,
+      "createdAt": "2026-11-24T09:16:16.544Z",
+      "priority": "normal",
+      "isUrgent": false,
+      "acknowledgedBy": [
+        "u-minjun"
+      ]
+    },
+    {
+      "id": "notice-personal-1",
+      "roomId": "room-self-u-minjun",
+      "scope": "personal",
+      "ownerUserId": "u-minjun",
+      "messageId": null,
+      "authorId": "u-minjun",
+      "title": "[개인 공지] 오후 4시 아키텍처 설계서 첨부 메일 검토 및 PR 머지",
+      "content": "이서연 선임 빅메일 첨부 PDF 검토 후 프로덕트 개발팀 방에 피드백 공유하기.",
+      "pinned": true,
+      "createdAt": "2026-11-24T11:31:16.544Z",
+      "priority": "normal",
+      "isUrgent": false,
+      "acknowledgedBy": [
+        "u-minjun"
+      ]
+    },
+    {
+      "id": "notice-company-1",
+      "roomId": "room-company",
+      "scope": "room",
+      "messageId": "msg-company-1",
+      "authorId": "u-jihoon",
+      "title": "SG Talk · bmail 연동 및 대화형 연차 등록 안내",
+      "content": "왼쪽 회사 계정 목록에서 동료를 더블클릭하면 바로 1:1 대화가 열립니다. 채팅 입력창에 \"/연차 내일 사유 개인일정\" 입력 시 대화로 즉시 연차가 등록되고 전사 bmail/메신저 알림이 발송됩니다.",
+      "pinned": false,
+      "createdAt": "2026-11-24T09:16:16.544Z",
+      "priority": "normal",
+      "isUrgent": false,
+      "acknowledgedBy": [
+        "u-jihoon"
+      ]
+    },
+    {
+      "id": "notice-dev-1",
+      "roomId": "room-dev",
+      "scope": "room",
+      "messageId": "msg-dev-1",
+      "authorId": "u-minjun",
+      "title": "금주 정기 배포 및 PR 리뷰 원칙",
+      "content": "매주 목요일 오후 4시 스테이징 배포, 금요일 오전 10시 프로덕션 반영입니다.",
+      "pinned": true,
+      "createdAt": "2026-11-24T09:16:16.544Z",
+      "priority": "normal",
+      "isUrgent": false,
+      "acknowledgedBy": [
+        "u-minjun"
+      ]
+    }
+  ],
+  "leaves": [
+    {
+      "id": "leave-seed-1",
+      "userId": "u-hyunwoo",
+      "type": "오후반차",
+      "startDate": "2026-11-24",
+      "endDate": "2026-11-24",
+      "daysCount": 0.5,
+      "substituteId": "u-minjun",
+      "reason": "개인 병원 예약 및 휴식",
+      "status": "승인완료",
+      "createdAt": "2026-11-24T10:16:16.544Z"
+    },
+    {
+      "id": "leave-seed-2",
+      "userId": "u-seoyeon",
+      "type": "연차",
+      "startDate": "2026-11-26",
+      "endDate": "2026-11-27",
+      "daysCount": 2,
+      "substituteId": "u-yuna",
+      "reason": "가족 여행 일정",
+      "status": "승인완료",
+      "createdAt": "2026-11-24T09:16:16.544Z"
+    },
+    {
+      "id": "leave-seed-hist-1",
+      "userId": "u-minjun",
+      "type": "연차",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-15",
+      "daysCount": 2,
+      "substituteId": "u-hyunwoo",
+      "reason": "가을 가족 여행 및 재충전",
+      "status": "승인완료",
+      "createdAt": "2026-10-14T09:00:00.000Z"
+    },
+    {
+      "id": "leave-seed-hist-2",
+      "userId": "u-minjun",
+      "type": "오전반차",
+      "startDate": "2026-09-08",
+      "endDate": "2026-09-08",
+      "daysCount": 0.5,
+      "substituteId": "u-seoyeon",
+      "reason": "치과 정기 검진 및 스케일링",
+      "status": "승인완료",
+      "createdAt": "2026-09-08T08:30:00.000Z"
+    },
+    {
+      "id": "leave-seed-hist-3",
+      "userId": "u-seoyeon",
+      "type": "연차",
+      "startDate": "2026-10-06",
+      "endDate": "2026-10-06",
+      "daysCount": 1,
+      "substituteId": "u-yuna",
+      "reason": "디자인 컨퍼런스 참석 및 휴식",
+      "status": "승인완료",
+      "createdAt": "2026-10-06T09:10:00.000Z"
+    },
+    {
+      "id": "leave-seed-hist-4",
+      "userId": "u-jihoon",
+      "type": "연차",
+      "startDate": "2026-10-22",
+      "endDate": "2026-10-22",
+      "daysCount": 1,
+      "substituteId": "u-minjun",
+      "reason": "은행 및 관공서 개인 업무",
+      "status": "승인완료",
+      "createdAt": "2026-10-22T09:00:00.000Z"
+    },
+    {
+      "id": "leave-seed-hist-5",
+      "userId": "u-yuna",
+      "type": "연차",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-20",
+      "daysCount": 1,
+      "substituteId": "u-seoyeon",
+      "reason": "가족 행사 참석",
+      "status": "승인완료",
+      "createdAt": "2026-10-20T09:00:00.000Z"
+    },
+    {
+      "id": "leave-seed-hist-6",
+      "userId": "u-yuna",
+      "type": "연차",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-18",
+      "daysCount": 3,
+      "substituteId": "u-jihoon",
+      "reason": "늦은 하계 휴가",
+      "status": "승인완료",
+      "createdAt": "2026-09-16T09:00:00.000Z"
+    },
+    {
+      "id": "leave-seed-hist-7",
+      "userId": "u-hyunwoo",
+      "type": "연차",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-23",
+      "daysCount": 3,
+      "substituteId": "u-minjun",
+      "reason": "제주 워케이션 및 휴식",
+      "status": "승인완료",
+      "createdAt": "2026-09-21T09:00:00.000Z"
+    }
+  ],
+  "mails": [
+    {
+      "id": "bigmail-80ee87a5",
+      "provider": "bigmail",
+      "senderId": "u-minjun",
+      "recipientIds": [
+        "u-seoyeon"
+      ],
+      "subject": "Q4 대용량 리소스 전달 테스트",
+      "body": "사내 NAS 폴더로 패키징 완료되어 공유 링크 함께 첨부드립니다.",
+      "attachments": [
+        {
+          "id": "nasmail-cbb27a5c",
+          "filename": "SGW_대용량_공유패키지.tar.zst",
+          "size": 107374182400,
+          "mimeType": "application/octet-stream",
+          "downloadUrl": "/api/files/nasmail-cbb27a5c/download",
+          "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNtYWlsLWNiYjI3YTVjIiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU2MTE1Nzc4OTIsImV4cCI6MTc5NjIxNjM3Nzg5Miwic2NvcGUiOiJmaWxlX3NoYXJlIn0.38dZrVai-I72GhyrKAeh2FTz5UHCZb2QwkaYDowXo5c",
+          "shareExpiresAt": "2026-12-02T12:59:37.892Z",
+          "isLargeFile": true,
+          "isExternalLink": false,
+          "shareProvider": "nas",
+          "storageLocation": "internal-nas",
+          "nasFolder": "전사-공유",
+          "nasRelativePath": "전사-공유/SGW_대용량_공유패키지.tar.zst",
+          "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNtYWlsLWNiYjI3YTVjIiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU2MTE1Nzc4OTIsImV4cCI6MTc5NjIxNjM3Nzg5Miwic2NvcGUiOiJmaWxlX3NoYXJlIn0.38dZrVai-I72GhyrKAeh2FTz5UHCZb2QwkaYDowXo5c",
+          "hasPasscode": false,
+          "maxDownloads": null,
+          "downloadCount": 0,
+          "revoked": false
+        }
+      ],
+      "category": "일반",
+      "readByUserIds": [
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-25T12:59:37.894Z",
+      "shortSummary": "사내 NAS 폴더로 패키징 완료되어 공유 링크 함께 첨부드립니다."
+    },
+    {
+      "id": "bigmail-1bed2cce",
+      "provider": "bigmail",
+      "senderId": "u-minjun",
+      "recipientIds": [
+        "u-jihoon"
+      ],
+      "subject": "2026 Q4 릴리즈 NAS 대용량 납품",
+      "body": "내부 프로덕트개발 NAS 폴더에 복사 완료했으며, 외부에서는 아래 보안 링크로 다운로드 가능합니다.",
+      "attachments": [
+        {
+          "id": "nasmail-07de9250",
+          "filename": "Release_Bundle_150GB.tar.zst",
+          "size": 161061273600,
+          "mimeType": "application/octet-stream",
+          "downloadUrl": "/api/files/nasmail-07de9250/download",
+          "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNtYWlsLTA3ZGU5MjUwIiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU1MzI2MDI2ODYsImV4cCI6MTc5NjEzNzQwMjY4Niwic2NvcGUiOiJmaWxlX3NoYXJlIn0.JkVL2914ZzoG5LFJWuvE0PxniJY5crcXxwy63MZZ6xk",
+          "shareExpiresAt": "2026-12-01T15:03:22.686Z",
+          "isLargeFile": true,
+          "isExternalLink": false,
+          "shareProvider": "nas",
+          "storageLocation": "internal-nas",
+          "nasFolder": "프로덕트개발",
+          "nasRelativePath": "프로덕트개발/Release_Bundle_150GB.tar.zst",
+          "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNtYWlsLTA3ZGU5MjUwIiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU1MzI2MDI2ODYsImV4cCI6MTc5NjEzNzQwMjY4Niwic2NvcGUiOiJmaWxlX3NoYXJlIn0.JkVL2914ZzoG5LFJWuvE0PxniJY5crcXxwy63MZZ6xk",
+          "hasPasscode": true,
+          "maxDownloads": 10,
+          "downloadCount": 0,
+          "revoked": false
+        }
+      ],
+      "category": "일반",
+      "readByUserIds": [
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-24T15:03:22.806Z",
+      "shortSummary": "내부 프로덕트개발 NAS 폴더에 복사 완료했으며, 외부에서는 아래 보안 링크로 다운로드 가능합니다."
+    },
+    {
+      "id": "bigmail-3b49cb04",
+      "provider": "bigmail",
+      "senderId": "u-minjun",
+      "recipientIds": [
+        "u-seoyeon"
+      ],
+      "subject": "빅메일 NAS 대용량 테스트",
+      "body": "내부 NAS 복사 및 외부 다운로드 링크 테스트입니다.",
+      "attachments": [
+        {
+          "id": "nasmail-00be120e",
+          "filename": "Brand_Kit_100G.zip",
+          "size": 107374182400,
+          "mimeType": "application/octet-stream",
+          "downloadUrl": "/api/files/nasmail-00be120e/download",
+          "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNtYWlsLTAwYmUxMjBlIiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU1MzIzODMwODEsImV4cCI6MTc5NjEzNzE4MzA4MSwic2NvcGUiOiJmaWxlX3NoYXJlIn0.0CAlmd9aqFSBe5I7mpkVWi7QrHM1Xrb8IoTeatyf0gA",
+          "shareExpiresAt": "2026-12-01T14:59:43.081Z",
+          "isLargeFile": true,
+          "isExternalLink": false,
+          "shareProvider": "nas",
+          "storageLocation": "internal-nas",
+          "nasFolder": "디자인-에셋",
+          "nasRelativePath": "디자인-에셋/Brand_Kit_100G.zip",
+          "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNtYWlsLTAwYmUxMjBlIiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU1MzIzODMwODEsImV4cCI6MTc5NjEzNzE4MzA4MSwic2NvcGUiOiJmaWxlX3NoYXJlIn0.0CAlmd9aqFSBe5I7mpkVWi7QrHM1Xrb8IoTeatyf0gA",
+          "hasPasscode": true,
+          "maxDownloads": null,
+          "downloadCount": 0,
+          "revoked": false
+        }
+      ],
+      "category": "일반",
+      "readByUserIds": [
+        "u-minjun"
+      ],
+      "createdAt": "2026-11-24T14:59:43.131Z",
+      "shortSummary": "내부 NAS 복사 및 외부 다운로드 링크 테스트입니다."
+    },
+    {
+      "id": "mail-seed-bigmail-1",
+      "provider": "bigmail",
+      "senderId": "u-seoyeon",
+      "recipientIds": [
+        "u-minjun",
+        "u-hyunwoo",
+        "u-jihoon"
+      ],
+      "subject": "[빅메일] 2026 SGW × SEDMS 차세대 대용량 아키텍처 설계서 송부",
+      "shortSummary": "SGW 차세대 아키텍처 설계서 및 UI 리소스 대용량 패키지 검토 요청",
+      "body": "김민준 팀장님, 정현우 선임님 안녕하세요.\n차세대 SGW × SEDMS 통합 메신저 아키텍처 최종 설계서와 컴포넌트 리소스 번들을 빅메일로 송부드립니다.\n\n1. 주요 변경사항: 실시간 음성 AI 분석 파이프라인 및 대용량 링크 공유 규격\n2. 검토 기한: 금주 목요일 오후 3시까지 의견 회신 부탁드립니다.\n3. 첨부 대용량 파일은 사내 메일앱 또는 보안 링크로 즉시 내려받으실 수 있습니다.",
+      "attachments": [
+        {
+          "id": "att-bigmail-1",
+          "filename": "2026_SGW_SEDMS_아키텍처_설계서.pdf",
+          "size": 44564480,
+          "mimeType": "application/pdf",
+          "downloadUrl": "/api/files/file-guide-01/download"
+        },
+        {
+          "id": "att-bigmail-2",
+          "filename": "SGW_UI_디자인시스템_에셋.zip",
+          "size": 128974848,
+          "mimeType": "application/zip",
+          "downloadUrl": "/api/files/file-guide-01/download"
+        }
+      ],
+      "category": "공지",
+      "readByUserIds": [
+        "u-seoyeon"
+      ],
+      "createdAt": "2026-11-24T12:06:16.544Z"
+    },
+    {
+      "id": "mail-seed-1",
+      "provider": "bmail",
+      "senderId": "u-jihoon",
+      "recipientIds": [
+        "u-minjun",
+        "u-seoyeon",
+        "u-jihoon",
+        "u-yuna",
+        "u-hyunwoo"
+      ],
+      "subject": "[SGW 인사] 4분기 연차 사용 촉진 및 메신저 자동 알림 안내",
+      "shortSummary": "4분기 연차 사용 촉진 계획 및 대화형 \"/연차\" 자동 알림 안내",
+      "body": "안녕하세요, 경영지원팀 박지훈입니다.\nSGW 메신저 내 \"/연차\" 대화 명령어 또는 연차 등록 화면에서 연차를 신청하시면 전 사원 메일 및 메신저 알림봇으로 즉시 공유됩니다.",
+      "attachments": [],
+      "category": "공지",
+      "readByUserIds": [
+        "u-jihoon"
+      ],
+      "createdAt": "2026-11-24T09:16:16.544Z"
+    },
+    {
+      "id": "mail-seed-2",
+      "provider": "bmail",
+      "senderId": "u-seoyeon",
+      "recipientIds": [
+        "u-minjun",
+        "u-hyunwoo"
+      ],
+      "subject": "[UX 디자인팀] SGW 메신저 확장앱 레이아웃 최종 시안 전달",
+      "shortSummary": "웹 확장앱·앱 모드 전환 UI 시안 전달 및 피드백 요청",
+      "body": "민준 팀장님, 현우님 안녕하세요.\n웹 확장앱 화면과 모바일 앱 화면 전환 UI 시안을 bmail로 전달드립니다. 확인 후 메신저로 편하게 피드백 주세요!",
+      "attachments": [
+        {
+          "id": "att-bmail-1",
+          "filename": "SGW_확장앱_UI시안_요약.txt",
+          "size": 184320,
+          "mimeType": "text/plain",
+          "downloadUrl": "/api/files/file-guide-01/download"
+        }
+      ],
+      "category": "일반",
+      "readByUserIds": [
+        "u-seoyeon"
+      ],
+      "createdAt": "2026-11-24T11:31:16.544Z"
+    },
+    {
+      "id": "mail-seed-3",
+      "provider": "bmail",
+      "senderId": "u-hyunwoo",
+      "recipientIds": [
+        "u-minjun",
+        "u-seoyeon",
+        "u-jihoon",
+        "u-yuna",
+        "u-hyunwoo"
+      ],
+      "subject": "[연차 알림] 정현우 선임 - 오늘(2026-11-24) 오후반차 등록",
+      "shortSummary": "정현우 선임 금일 오후반차(0.5일) 등록 · 대직 김민준 팀장",
+      "body": "정현우 선임(프로덕트 개발팀)이 오늘 오후반차(0.5일)를 등록했습니다.\n업무 대행: 김민준 팀장\n사유: 개인 병원 예약 및 휴식",
+      "attachments": [],
+      "category": "연차알림",
+      "readByUserIds": [
+        "u-hyunwoo",
+        "u-minjun"
+      ],
+      "linkedLeaveId": "leave-seed-1",
+      "createdAt": "2026-11-24T10:16:16.544Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-ac50efa1",
+      "userId": "u-seoyeon",
+      "type": "mail",
+      "title": "[빅메일] 김민준 팀장 · Q4 대용량 리소스 전달 테스트",
+      "body": "내용 요약: 사내 NAS 폴더로 패키징 완료되어 공유 링크 함께 첨부드립니다. (📎 SGW_대용량_공유패키지.tar.zst)",
+      "roomId": "room-bot",
+      "leaveId": null,
+      "mailId": "bigmail-80ee87a5",
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T12:59:37.894Z"
+    },
+    {
+      "id": "notif-36de64b4",
+      "userId": "u-hyunwoo",
+      "type": "notice",
+      "title": "[긴급재난문자] 긴급 서버 보안 패치 공지",
+      "body": "김민준 팀장 (전사 공지·자유방): 전 직원 금일 18시 전까지 VPN 재접속 및 보안 패치 적용 바랍니다.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-6ed37dc9",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:59:39.961Z"
+    },
+    {
+      "id": "notif-f357554e",
+      "userId": "u-yuna",
+      "type": "notice",
+      "title": "[긴급재난문자] 긴급 서버 보안 패치 공지",
+      "body": "김민준 팀장 (전사 공지·자유방): 전 직원 금일 18시 전까지 VPN 재접속 및 보안 패치 적용 바랍니다.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-6ed37dc9",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:59:39.961Z"
+    },
+    {
+      "id": "notif-2b4cfb4c",
+      "userId": "u-jihoon",
+      "type": "notice",
+      "title": "[긴급재난문자] 긴급 서버 보안 패치 공지",
+      "body": "김민준 팀장 (전사 공지·자유방): 전 직원 금일 18시 전까지 VPN 재접속 및 보안 패치 적용 바랍니다.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-6ed37dc9",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:59:39.961Z"
+    },
+    {
+      "id": "notif-b230d7b9",
+      "userId": "u-seoyeon",
+      "type": "notice",
+      "title": "[긴급재난문자] 긴급 서버 보안 패치 공지",
+      "body": "김민준 팀장 (전사 공지·자유방): 전 직원 금일 18시 전까지 VPN 재접속 및 보안 패치 적용 바랍니다.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-6ed37dc9",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:59:39.961Z"
+    },
+    {
+      "id": "notif-78aa2d86",
+      "userId": "u-hyunwoo",
+      "type": "notice",
+      "title": "[긴급재난문자] 긴급 서버 보안 패치 공지",
+      "body": "김민준 (전사 공지·자유방): 전 직원 금일 18시 전까지 VPN 재접속 및 보안 패치 적용 바랍니다.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-6ed37dc9",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:54:53.049Z"
+    },
+    {
+      "id": "notif-1c0262c0",
+      "userId": "u-yuna",
+      "type": "notice",
+      "title": "[긴급재난문자] 긴급 서버 보안 패치 공지",
+      "body": "김민준 (전사 공지·자유방): 전 직원 금일 18시 전까지 VPN 재접속 및 보안 패치 적용 바랍니다.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-6ed37dc9",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:54:53.049Z"
+    },
+    {
+      "id": "notif-46e5a1b4",
+      "userId": "u-jihoon",
+      "type": "notice",
+      "title": "[긴급재난문자] 긴급 서버 보안 패치 공지",
+      "body": "김민준 (전사 공지·자유방): 전 직원 금일 18시 전까지 VPN 재접속 및 보안 패치 적용 바랍니다.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-6ed37dc9",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:54:53.049Z"
+    },
+    {
+      "id": "notif-8bdc88af",
+      "userId": "u-seoyeon",
+      "type": "notice",
+      "title": "[긴급재난문자] 긴급 서버 보안 패치 공지",
+      "body": "김민준 (전사 공지·자유방): 전 직원 금일 18시 전까지 VPN 재접속 및 보안 패치 적용 바랍니다.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-6ed37dc9",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:54:53.049Z"
+    },
+    {
+      "id": "notif-6b0274b8",
+      "userId": "u-hyunwoo",
+      "type": "notice",
+      "title": "[긴급재난문자] 전사 긴급 서버 점검 안내",
+      "body": "김민준 (전사 공지·자유방): 오늘 18:00~18:15 NAS 보안 패치 작업으로 대용량 링크 발급이 일시 중단됩니다. 전 직원 확인 바랍니다.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-5fa0244a",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:52:09.168Z"
+    },
+    {
+      "id": "notif-681db2a7",
+      "userId": "u-yuna",
+      "type": "notice",
+      "title": "[긴급재난문자] 전사 긴급 서버 점검 안내",
+      "body": "김민준 (전사 공지·자유방): 오늘 18:00~18:15 NAS 보안 패치 작업으로 대용량 링크 발급이 일시 중단됩니다. 전 직원 확인 바랍니다.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-5fa0244a",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:52:09.168Z"
+    },
+    {
+      "id": "notif-1237d6c3",
+      "userId": "u-jihoon",
+      "type": "notice",
+      "title": "[긴급재난문자] 전사 긴급 서버 점검 안내",
+      "body": "김민준 (전사 공지·자유방): 오늘 18:00~18:15 NAS 보안 패치 작업으로 대용량 링크 발급이 일시 중단됩니다. 전 직원 확인 바랍니다.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-5fa0244a",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:52:09.168Z"
+    },
+    {
+      "id": "notif-a3fc17c9",
+      "userId": "u-seoyeon",
+      "type": "notice",
+      "title": "[긴급재난문자] 전사 긴급 서버 점검 안내",
+      "body": "김민준 (전사 공지·자유방): 오늘 18:00~18:15 NAS 보안 패치 작업으로 대용량 링크 발급이 일시 중단됩니다. 전 직원 확인 바랍니다.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-5fa0244a",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:52:09.168Z"
+    },
+    {
+      "id": "notif-43d757e1",
+      "userId": "u-hyunwoo",
+      "type": "notice",
+      "title": "[긴급재난문자] API 테스트 긴급 공지",
+      "body": "김민준 팀장 (전사 공지·자유방): 재난문자 전파 확인 테스트",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-e025a364",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:51:04.748Z"
+    },
+    {
+      "id": "notif-0f0b4172",
+      "userId": "u-yuna",
+      "type": "notice",
+      "title": "[긴급재난문자] API 테스트 긴급 공지",
+      "body": "김민준 팀장 (전사 공지·자유방): 재난문자 전파 확인 테스트",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-e025a364",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:51:04.748Z"
+    },
+    {
+      "id": "notif-3ee87115",
+      "userId": "u-jihoon",
+      "type": "notice",
+      "title": "[긴급재난문자] API 테스트 긴급 공지",
+      "body": "김민준 팀장 (전사 공지·자유방): 재난문자 전파 확인 테스트",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-e025a364",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:51:04.748Z"
+    },
+    {
+      "id": "notif-a129aac4",
+      "userId": "u-seoyeon",
+      "type": "notice",
+      "title": "[긴급재난문자] API 테스트 긴급 공지",
+      "body": "김민준 팀장 (전사 공지·자유방): 재난문자 전파 확인 테스트",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-e025a364",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:51:04.748Z"
+    },
+    {
+      "id": "notif-a2e9b3c4",
+      "userId": "u-hyunwoo",
+      "type": "notice",
+      "title": "[긴급재난문자] API 테스트 긴급 공지",
+      "body": "김민준 (전사 공지·자유방): 재난문자 전파 확인 테스트",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-e025a364",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:51:04.734Z"
+    },
+    {
+      "id": "notif-eaf02f08",
+      "userId": "u-yuna",
+      "type": "notice",
+      "title": "[긴급재난문자] API 테스트 긴급 공지",
+      "body": "김민준 (전사 공지·자유방): 재난문자 전파 확인 테스트",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-e025a364",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:51:04.734Z"
+    },
+    {
+      "id": "notif-879e55a8",
+      "userId": "u-jihoon",
+      "type": "notice",
+      "title": "[긴급재난문자] API 테스트 긴급 공지",
+      "body": "김민준 (전사 공지·자유방): 재난문자 전파 확인 테스트",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-e025a364",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:51:04.734Z"
+    },
+    {
+      "id": "notif-7f447aef",
+      "userId": "u-seoyeon",
+      "type": "notice",
+      "title": "[긴급재난문자] API 테스트 긴급 공지",
+      "body": "김민준 (전사 공지·자유방): 재난문자 전파 확인 테스트",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-e025a364",
+      "priority": "urgent",
+      "isUrgent": true,
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-25T10:51:04.734Z"
+    },
+    {
+      "id": "notif-7212597b",
+      "userId": "u-jihoon",
+      "type": "mail",
+      "title": "[빅메일] 김민준 팀장 · 2026 Q4 릴리즈 NAS 대용량 납품",
+      "body": "내용 요약: 내부 프로덕트개발 NAS 폴더에 복사 완료했으며, 외부에서는 아래 보안 링크로 다운로드 가능합니다. (📎 Release_Bundle_150GB.tar.zst)",
+      "roomId": "room-bot",
+      "leaveId": null,
+      "mailId": "bigmail-1bed2cce",
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-24T15:03:22.806Z"
+    },
+    {
+      "id": "notif-f7eac284",
+      "userId": "u-seoyeon",
+      "type": "mail",
+      "title": "[빅메일] 김민준 팀장 · 빅메일 NAS 대용량 테스트",
+      "body": "내용 요약: 내부 NAS 복사 및 외부 다운로드 링크 테스트입니다. (📎 Brand_Kit_100G.zip)",
+      "roomId": "room-bot",
+      "leaveId": null,
+      "mailId": "bigmail-3b49cb04",
+      "actorId": "u-minjun",
+      "read": false,
+      "createdAt": "2026-11-24T14:59:43.131Z"
+    },
+    {
+      "id": "notif-seed-u-minjun",
+      "userId": "u-minjun",
+      "type": "leave",
+      "title": "[연차 알림] 정현우 선임 (프로덕트 개발팀)",
+      "body": "오후반차 · 2026-11-24 (0.5일) · 업무대행: 김민준 팀장",
+      "roomId": "room-bot",
+      "leaveId": "leave-seed-1",
+      "actorId": "u-hyunwoo",
+      "read": false,
+      "createdAt": "2026-11-24T10:16:16.544Z"
+    },
+    {
+      "id": "notif-seed-u-seoyeon",
+      "userId": "u-seoyeon",
+      "type": "leave",
+      "title": "[연차 알림] 정현우 선임 (프로덕트 개발팀)",
+      "body": "오후반차 · 2026-11-24 (0.5일) · 업무대행: 김민준 팀장",
+      "roomId": "room-bot",
+      "leaveId": "leave-seed-1",
+      "actorId": "u-hyunwoo",
+      "read": false,
+      "createdAt": "2026-11-24T10:16:16.544Z"
+    },
+    {
+      "id": "notif-seed-u-jihoon",
+      "userId": "u-jihoon",
+      "type": "leave",
+      "title": "[연차 알림] 정현우 선임 (프로덕트 개발팀)",
+      "body": "오후반차 · 2026-11-24 (0.5일) · 업무대행: 김민준 팀장",
+      "roomId": "room-bot",
+      "leaveId": "leave-seed-1",
+      "actorId": "u-hyunwoo",
+      "read": false,
+      "createdAt": "2026-11-24T10:16:16.544Z"
+    },
+    {
+      "id": "notif-seed-u-yuna",
+      "userId": "u-yuna",
+      "type": "leave",
+      "title": "[연차 알림] 정현우 선임 (프로덕트 개발팀)",
+      "body": "오후반차 · 2026-11-24 (0.5일) · 업무대행: 김민준 팀장",
+      "roomId": "room-bot",
+      "leaveId": "leave-seed-1",
+      "actorId": "u-hyunwoo",
+      "read": false,
+      "createdAt": "2026-11-24T10:16:16.544Z"
+    },
+    {
+      "id": "notif-seed-u-hyunwoo",
+      "userId": "u-hyunwoo",
+      "type": "leave",
+      "title": "[연차 알림] 정현우 선임 (프로덕트 개발팀)",
+      "body": "오후반차 · 2026-11-24 (0.5일) · 업무대행: 김민준 팀장",
+      "roomId": "room-bot",
+      "leaveId": "leave-seed-1",
+      "actorId": "u-hyunwoo",
+      "read": true,
+      "createdAt": "2026-11-24T10:16:16.544Z"
+    },
+    {
+      "id": "notif-seed-bigmail-minjun",
+      "userId": "u-minjun",
+      "type": "mail",
+      "title": "[빅메일] 이서연 선임 · 2026 SGW × SEDMS 차세대 대용량 아키텍처 설계서 송부",
+      "body": "내용 요약: SGW 차세대 아키텍처 설계서 및 UI 리소스 대용량 패키지 검토 요청 (📎 2026_SGW_SEDMS_아키텍처_설계서.pdf 외 1개)",
+      "roomId": "room-bot",
+      "leaveId": null,
+      "mailId": "mail-seed-bigmail-1",
+      "actorId": "u-seoyeon",
+      "read": false,
+      "createdAt": "2026-11-24T12:06:16.544Z"
+    },
+    {
+      "id": "notif-seed-global-minjun",
+      "userId": "u-minjun",
+      "type": "notice",
+      "title": "[전체 업무 공지] 2026년 4분기 보안 점검 및 대용량 파일 링크 공유 정책",
+      "body": "사내 대용량 파일(최대 500MB 분할 업로드 및 100GB 단위 외부 공유 링크)은 만료일·비밀번호·다운로드 제한이 적용된 보안 공유 링크를 통해 안전하게 전달해 주세요.",
+      "roomId": "room-company",
+      "leaveId": null,
+      "noticeId": "notice-global-1",
+      "actorId": "u-jihoon",
+      "read": false,
+      "createdAt": "2026-11-24T10:16:16.544Z"
+    }
+  ],
+  "files": [
+    {
+      "id": "nasmail-cbb27a5c",
+      "roomId": "room-bot",
+      "uploaderId": "u-minjun",
+      "messageId": "",
+      "filename": "SGW_대용량_공유패키지.tar.zst",
+      "mimeType": "application/octet-stream",
+      "size": 107374182400,
+      "url": "/api/files/nasmail-cbb27a5c/download",
+      "isImage": false,
+      "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNtYWlsLWNiYjI3YTVjIiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU2MTE1Nzc4OTIsImV4cCI6MTc5NjIxNjM3Nzg5Miwic2NvcGUiOiJmaWxlX3NoYXJlIn0.38dZrVai-I72GhyrKAeh2FTz5UHCZb2QwkaYDowXo5c",
+      "shareExpiresAt": "2026-12-02T12:59:37.892Z",
+      "isLargeFile": true,
+      "isExternalLink": false,
+      "shareProvider": "nas",
+      "transferMode": "external-100gb",
+      "storageLocation": "internal-nas",
+      "nasFolder": "전사-공유",
+      "nasRelativePath": "전사-공유/SGW_대용량_공유패키지.tar.zst",
+      "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNtYWlsLWNiYjI3YTVjIiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU2MTE1Nzc4OTIsImV4cCI6MTc5NjIxNjM3Nzg5Miwic2NvcGUiOiJmaWxlX3NoYXJlIn0.38dZrVai-I72GhyrKAeh2FTz5UHCZb2QwkaYDowXo5c",
+      "hasPasscode": false,
+      "maxDownloads": null,
+      "downloadCount": 0,
+      "revoked": false,
+      "createdAt": "2026-11-25T12:59:37.892Z"
+    },
+    {
+      "id": "nascopy-65c7f285",
+      "roomId": "room-bot",
+      "uploaderId": "u-minjun",
+      "messageId": "",
+      "filename": "Release_Bundle_150GB.tar.zst",
+      "mimeType": "application/octet-stream",
+      "size": 161061273600,
+      "url": "/api/files/nascopy-65c7f285/download",
+      "isImage": false,
+      "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNjb3B5LTY1YzdmMjg1Iiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU1MzI2MjI4NjEsImV4cCI6MTc5NjEzNzQyMjg2MSwic2NvcGUiOiJmaWxlX3NoYXJlIn0.dMMuZ_10XvulRozRuUzX4raK0mpfCqYxoO2l7WkZgGw",
+      "shareExpiresAt": "2026-12-01T15:03:42.861Z",
+      "isLargeFile": true,
+      "isExternalLink": false,
+      "shareProvider": "nas",
+      "transferMode": "external-100gb",
+      "storageLocation": "internal-nas",
+      "nasFolder": "경영지원-자료실",
+      "nasRelativePath": "경영지원-자료실/Release_Bundle_150GB.tar.zst",
+      "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNjb3B5LTY1YzdmMjg1Iiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU1MzI2MjI4NjEsImV4cCI6MTc5NjEzNzQyMjg2MSwic2NvcGUiOiJmaWxlX3NoYXJlIn0.dMMuZ_10XvulRozRuUzX4raK0mpfCqYxoO2l7WkZgGw",
+      "hasPasscode": false,
+      "maxDownloads": null,
+      "downloadCount": 0,
+      "revoked": false,
+      "createdAt": "2026-11-24T15:03:42.861Z"
+    },
+    {
+      "id": "nasmail-07de9250",
+      "roomId": "room-bot",
+      "uploaderId": "u-minjun",
+      "messageId": "",
+      "filename": "Release_Bundle_150GB.tar.zst",
+      "mimeType": "application/octet-stream",
+      "size": 161061273600,
+      "url": "/api/files/nasmail-07de9250/download",
+      "isImage": false,
+      "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNtYWlsLTA3ZGU5MjUwIiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU1MzI2MDI2ODYsImV4cCI6MTc5NjEzNzQwMjY4Niwic2NvcGUiOiJmaWxlX3NoYXJlIn0.JkVL2914ZzoG5LFJWuvE0PxniJY5crcXxwy63MZZ6xk",
+      "shareExpiresAt": "2026-12-01T15:03:22.686Z",
+      "isLargeFile": true,
+      "isExternalLink": false,
+      "shareProvider": "nas",
+      "transferMode": "external-100gb",
+      "storageLocation": "internal-nas",
+      "nasFolder": "프로덕트개발",
+      "nasRelativePath": "프로덕트개발/Release_Bundle_150GB.tar.zst",
+      "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNtYWlsLTA3ZGU5MjUwIiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU1MzI2MDI2ODYsImV4cCI6MTc5NjEzNzQwMjY4Niwic2NvcGUiOiJmaWxlX3NoYXJlIn0.JkVL2914ZzoG5LFJWuvE0PxniJY5crcXxwy63MZZ6xk",
+      "hasPasscode": true,
+      "maxDownloads": 10,
+      "downloadCount": 0,
+      "revoked": false,
+      "createdAt": "2026-11-24T15:03:22.804Z"
+    },
+    {
+      "id": "nas-c1b6c437",
+      "roomId": "room-company",
+      "uploaderId": "u-minjun",
+      "messageId": "msg-f045fb99",
+      "filename": "Model_Weights_120GB.tar.zst",
+      "mimeType": "application/octet-stream",
+      "size": 107374182400,
+      "url": "/api/files/nas-c1b6c437/download",
+      "isImage": false,
+      "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXMtYzFiNmM0MzciLCJyb29tSWQiOiJyb29tLWNvbXBhbnkiLCJpYXQiOjE3OTU1MzI0NTg1NzMsImV4cCI6MTc5NjEzNzI1ODU3Mywic2NvcGUiOiJmaWxlX3NoYXJlIn0.LjF-F8i3mQiwZq3l_rBdYpxwj2kjDf1hpSb3YXsLKDM",
+      "shareExpiresAt": "2026-12-01T15:00:58.573Z",
+      "isLargeFile": true,
+      "isExternalLink": false,
+      "shareProvider": "nas",
+      "transferMode": "external-100gb",
+      "storageLocation": "internal-nas",
+      "nasFolder": "AI-데이터셋",
+      "nasRelativePath": "AI-데이터셋/Model_Weights_120GB.tar.zst",
+      "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXMtYzFiNmM0MzciLCJyb29tSWQiOiJyb29tLWNvbXBhbnkiLCJpYXQiOjE3OTU1MzI0NTg1NzMsImV4cCI6MTc5NjEzNzI1ODU3Mywic2NvcGUiOiJmaWxlX3NoYXJlIn0.LjF-F8i3mQiwZq3l_rBdYpxwj2kjDf1hpSb3YXsLKDM",
+      "hasPasscode": true,
+      "maxDownloads": null,
+      "downloadCount": 0,
+      "revoked": false,
+      "createdAt": "2026-11-24T15:00:58.631Z"
+    },
+    {
+      "id": "nascopy-54edba54",
+      "roomId": "room-bot",
+      "uploaderId": "u-minjun",
+      "messageId": "",
+      "filename": "Brand_Kit_100G.zip",
+      "mimeType": "application/octet-stream",
+      "size": 107374182400,
+      "url": "/api/files/nascopy-54edba54/download",
+      "isImage": false,
+      "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNjb3B5LTU0ZWRiYTU0Iiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU1MzIzODMxMzksImV4cCI6MTc5NjEzNzE4MzEzOSwic2NvcGUiOiJmaWxlX3NoYXJlIn0.hel5q-NtaF6mPd91fKaG1gIdYSHxuoz6bZ0keSv8aUY",
+      "shareExpiresAt": "2026-12-01T14:59:43.139Z",
+      "isLargeFile": true,
+      "isExternalLink": false,
+      "shareProvider": "nas",
+      "transferMode": "external-100gb",
+      "storageLocation": "internal-nas",
+      "nasFolder": "경영지원-자료실",
+      "nasRelativePath": "경영지원-자료실/Brand_Kit_100G.zip",
+      "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNjb3B5LTU0ZWRiYTU0Iiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU1MzIzODMxMzksImV4cCI6MTc5NjEzNzE4MzEzOSwic2NvcGUiOiJmaWxlX3NoYXJlIn0.hel5q-NtaF6mPd91fKaG1gIdYSHxuoz6bZ0keSv8aUY",
+      "hasPasscode": false,
+      "maxDownloads": null,
+      "downloadCount": 0,
+      "revoked": false,
+      "createdAt": "2026-11-24T14:59:43.139Z"
+    },
+    {
+      "id": "nasmail-00be120e",
+      "roomId": "room-bot",
+      "uploaderId": "u-minjun",
+      "messageId": "",
+      "filename": "Brand_Kit_100G.zip",
+      "mimeType": "application/octet-stream",
+      "size": 107374182400,
+      "url": "/api/files/nasmail-00be120e/download",
+      "isImage": false,
+      "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNtYWlsLTAwYmUxMjBlIiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU1MzIzODMwODEsImV4cCI6MTc5NjEzNzE4MzA4MSwic2NvcGUiOiJmaWxlX3NoYXJlIn0.0CAlmd9aqFSBe5I7mpkVWi7QrHM1Xrb8IoTeatyf0gA",
+      "shareExpiresAt": "2026-12-01T14:59:43.081Z",
+      "isLargeFile": true,
+      "isExternalLink": false,
+      "shareProvider": "nas",
+      "transferMode": "external-100gb",
+      "storageLocation": "internal-nas",
+      "nasFolder": "디자인-에셋",
+      "nasRelativePath": "디자인-에셋/Brand_Kit_100G.zip",
+      "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXNtYWlsLTAwYmUxMjBlIiwicm9vbUlkIjoicm9vbS1ib3QiLCJpYXQiOjE3OTU1MzIzODMwODEsImV4cCI6MTc5NjEzNzE4MzA4MSwic2NvcGUiOiJmaWxlX3NoYXJlIn0.0CAlmd9aqFSBe5I7mpkVWi7QrHM1Xrb8IoTeatyf0gA",
+      "hasPasscode": true,
+      "maxDownloads": null,
+      "downloadCount": 0,
+      "revoked": false,
+      "createdAt": "2026-11-24T14:59:43.130Z"
+    },
+    {
+      "id": "nas-f38d477c",
+      "roomId": "room-company",
+      "uploaderId": "u-minjun",
+      "messageId": "msg-eb4d63a6",
+      "filename": "SGW_Vision_100G.tar.zst",
+      "mimeType": "application/octet-stream",
+      "size": 107374182400,
+      "url": "/api/files/nas-f38d477c/download",
+      "isImage": false,
+      "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXMtZjM4ZDQ3N2MiLCJyb29tSWQiOiJyb29tLWNvbXBhbnkiLCJpYXQiOjE3OTU1MzIzODI4OTAsImV4cCI6MTc5NjEzNzE4Mjg5MCwic2NvcGUiOiJmaWxlX3NoYXJlIn0.lD9AsfAejoTlM1bQmHQwhjYhW0xs_ihoI5_Xu5C3apM",
+      "shareExpiresAt": "2026-12-01T14:59:42.890Z",
+      "isLargeFile": true,
+      "isExternalLink": false,
+      "shareProvider": "nas",
+      "transferMode": "external-100gb",
+      "storageLocation": "internal-nas",
+      "nasFolder": "AI-데이터셋",
+      "nasRelativePath": "AI-데이터셋/SGW_Vision_100G.tar.zst",
+      "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXMtZjM4ZDQ3N2MiLCJyb29tSWQiOiJyb29tLWNvbXBhbnkiLCJpYXQiOjE3OTU1MzIzODI4OTAsImV4cCI6MTc5NjEzNzE4Mjg5MCwic2NvcGUiOiJmaWxlX3NoYXJlIn0.lD9AsfAejoTlM1bQmHQwhjYhW0xs_ihoI5_Xu5C3apM",
+      "hasPasscode": true,
+      "maxDownloads": 5,
+      "downloadCount": 1,
+      "revoked": false,
+      "createdAt": "2026-11-24T14:59:42.959Z"
+    },
+    {
+      "id": "nas-0abe7580",
+      "roomId": "room-company",
+      "uploaderId": "u-minjun",
+      "messageId": "msg-89911bb2",
+      "filename": "nas_smoke_test.txt",
+      "mimeType": "application/octet-stream",
+      "size": 30,
+      "url": "/api/files/nas-0abe7580/download",
+      "isImage": false,
+      "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXMtMGFiZTc1ODAiLCJyb29tSWQiOiJyb29tLWNvbXBhbnkiLCJpYXQiOjE3OTU1MzIzODI4NjQsImV4cCI6MTc5NjEzNzE4Mjg2NCwic2NvcGUiOiJmaWxlX3NoYXJlIn0.rseoxZVpGUz_MYmbWWYEm6YzX02o9MdzGWTcpz1bWK8",
+      "shareExpiresAt": "2026-12-01T14:59:42.864Z",
+      "isLargeFile": true,
+      "isExternalLink": false,
+      "shareProvider": "nas",
+      "transferMode": "external-100gb",
+      "storageLocation": "internal-nas",
+      "nasFolder": "프로덕트개발",
+      "nasRelativePath": "프로덕트개발/nas_smoke_test.txt",
+      "nasExternalAccessUrl": "/api/files/shared/eyJmaWxlSWQiOiJuYXMtMGFiZTc1ODAiLCJyb29tSWQiOiJyb29tLWNvbXBhbnkiLCJpYXQiOjE3OTU1MzIzODI4NjQsImV4cCI6MTc5NjEzNzE4Mjg2NCwic2NvcGUiOiJmaWxlX3NoYXJlIn0.rseoxZVpGUz_MYmbWWYEm6YzX02o9MdzGWTcpz1bWK8",
+      "hasPasscode": false,
+      "maxDownloads": null,
+      "downloadCount": 1,
+      "revoked": false,
+      "createdAt": "2026-11-24T14:59:42.865Z"
+    },
+    {
+      "id": "file-3c97b209",
+      "roomId": "room-company",
+      "uploaderId": "u-minjun",
+      "messageId": "msg-d8688291",
+      "filename": "chunk_verify_demo.bin",
+      "mimeType": "application/octet-stream",
+      "size": 26,
+      "url": "/api/files/file-3c97b209/download",
+      "isImage": false,
+      "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJmaWxlLTNjOTdiMjA5Iiwicm9vbUlkIjoicm9vbS1jb21wYW55IiwiaWF0IjoxNzk1NTIyNjY1MTU4LCJleHAiOjE3OTYxMjc0NjUxNTgsInNjb3BlIjoiZmlsZV9zaGFyZSJ9.syYjvMNbeDyk_KRK6JwzTwqELGIgujFtM9qAk29BS6o",
+      "shareExpiresAt": "2026-12-01T12:17:45.158Z",
+      "isLargeFile": false,
+      "isExternalLink": false,
+      "shareProvider": "sgw-relay",
+      "transferMode": "chunked-resumable",
+      "hasPasscode": false,
+      "maxDownloads": null,
+      "downloadCount": 0,
+      "revoked": true,
+      "createdAt": "2026-11-24T12:17:45.159Z"
+    },
+    {
+      "id": "link-a8091787",
+      "roomId": "room-company",
+      "uploaderId": "u-minjun",
+      "messageId": "msg-71713058",
+      "filename": "SGW_AI_모델가중치_100GB.tar.zst",
+      "mimeType": "application/octet-stream",
+      "size": 107374182400,
+      "url": "https://drive.google.com/file/d/sgw-100gb-verify/view",
+      "isImage": false,
+      "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJsaW5rLWE4MDkxNzg3Iiwicm9vbUlkIjoicm9vbS1jb21wYW55IiwiaWF0IjoxNzk1NTIyNjU3NzEwLCJleHAiOjE3OTYxMjc0NTc3MTAsInNjb3BlIjoiZmlsZV9zaGFyZSJ9.Nd5pMENFILZiovjz1UUasjAAcT8Je6YfeQPiNQuD2Mk",
+      "shareExpiresAt": "2026-12-01T12:17:37.710Z",
+      "isLargeFile": true,
+      "isExternalLink": true,
+      "shareProvider": "s3",
+      "transferMode": "external-100gb",
+      "hasPasscode": true,
+      "maxDownloads": 3,
+      "downloadCount": 0,
+      "revoked": false,
+      "createdAt": "2026-11-24T12:17:37.808Z"
+    },
+    {
+      "id": "link-3b7d9680",
+      "roomId": "room-company",
+      "uploaderId": "u-minjun",
+      "messageId": "msg-97d05d23",
+      "filename": "SGW_AI_모델가중치_100GB.tar.zst",
+      "mimeType": "application/octet-stream",
+      "size": 107374182400,
+      "url": "https://drive.google.com/file/d/sgw-100gb-verify/view",
+      "isImage": false,
+      "shareUrl": "/api/files/shared/eyJmaWxlSWQiOiJsaW5rLTNiN2Q5NjgwIiwicm9vbUlkIjoicm9vbS1jb21wYW55IiwiaWF0IjoxNzk1NTIyNjAzNzc3LCJleHAiOjE3OTYxMjc0MDM3NzcsInNjb3BlIjoiZmlsZV9zaGFyZSJ9.OZ5d_K0PFdMyIpIoepgIT5Sb0UejhSufEkTxS6O8LB4",
+      "shareExpiresAt": "2026-12-01T12:16:43.777Z",
+      "isLargeFile": true,
+      "isExternalLink": true,
+      "shareProvider": "s3",
+      "transferMode": "external-100gb",
+      "hasPasscode": true,
+      "maxDownloads": 3,
+      "downloadCount": 0,
+      "revoked": false,
+      "createdAt": "2026-11-24T12:16:43.845Z"
+    },
+    {
+      "id": "file-guide-01",
+      "roomId": "room-company",
+      "uploaderId": "u-jihoon",
+      "messageId": "msg-company-2",
+      "filename": "2026_SGW_메신저_가이드.txt",
+      "mimeType": "text/plain",
+      "size": 435,
+      "url": "/api/files/file-guide-01/download",
+      "isImage": false,
+      "createdAt": "2026-11-24T10:16:16.544Z"
+    }
+  ],
+  "scheduledMessages": [],
+  "sharePasscodeHashes": {
+    "link-3b7d9680": "7476813eab73edcdbf094716bc0bd070:470b86c5e5f86c88ac189036b5d4d731159fdc64a54b48d1105f5ce6aa77925a",
+    "link-a8091787": "cd247503844decf8027906d3acc7a928:feb4090f8d3fdebf9f9bebafcdae02fed902a62265a9b66b3d6105c94712c1d0",
+    "nas-f38d477c": "c5563346590a27a4c9c55cdd62d7b09b:8646aff4011134015f6cea64b5b376e9cb85fe02d158dd3ba37632aea322a4b6",
+    "nasmail-00be120e": "0b64fa25d461e1e7505706311848e081:1d1e1db2df4ae6a7b21c3ed7baa59b1001a32cab0604dc31296578371265517e",
+    "nas-c1b6c437": "a65ce44bb15681096a91f62f6e510ec2:0232e27e8d8478fd57d491c1445a89a5b13e245a6e86712473b35c8f908eef36",
+    "nasmail-07de9250": "01201d94df6ddca30d9a58ef8fc9dcf2:6bbbf57fc53dcbd6e23e1f89852d4808047d95c94f2b0066b6b05c6eb3fa7ec2"
+  }
+}
